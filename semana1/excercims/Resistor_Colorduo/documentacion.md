@@ -1,5 +1,5 @@
 
-
+ 
 Este  código es conciso y sencillo, utiliza el método indexOfpara encontrar el índice de un color determinado en la matriz COLORSy luego realiza operaciones aritméticas simples para decodificar el valor de la resistencia.
 
 
