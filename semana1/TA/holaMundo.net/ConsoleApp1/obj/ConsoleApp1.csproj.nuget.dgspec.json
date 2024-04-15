@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gateway\\Documents\\poo\\holaMundo.net\\ConsoleApp1\\ConsoleApp1.csproj": {}
+    "C:\\Users\\Gateway\\Documents\\deberes-objetos\\semana1\\TA\\holaMundo.net\\ConsoleApp1\\ConsoleApp1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gateway\\Documents\\poo\\holaMundo.net\\ConsoleApp1\\ConsoleApp1.csproj": {
+    "C:\\Users\\Gateway\\Documents\\deberes-objetos\\semana1\\TA\\holaMundo.net\\ConsoleApp1\\ConsoleApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gateway\\Documents\\poo\\holaMundo.net\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectUniqueName": "C:\\Users\\Gateway\\Documents\\deberes-objetos\\semana1\\TA\\holaMundo.net\\ConsoleApp1\\ConsoleApp1.csproj",
         "projectName": "ConsoleApp1",
-        "projectPath": "C:\\Users\\Gateway\\Documents\\poo\\holaMundo.net\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectPath": "C:\\Users\\Gateway\\Documents\\deberes-objetos\\semana1\\TA\\holaMundo.net\\ConsoleApp1\\ConsoleApp1.csproj",
         "packagesPath": "C:\\Users\\Gateway\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gateway\\Documents\\poo\\holaMundo.net\\ConsoleApp1\\obj\\",
+        "outputPath": "C:\\Users\\Gateway\\Documents\\deberes-objetos\\semana1\\TA\\holaMundo.net\\ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Gateway\\AppData\\Roaming\\NuGet\\NuGet.Config"
