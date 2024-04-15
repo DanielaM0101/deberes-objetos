@@ -1,7 +1,4 @@
 
-El código utiliza el objeto values para mapear colores a valores numéricos y calcular el valor del resistor.
-Luego, utiliza el array multipliers para determinar el multiplicador correspondiente.
-La fórmula utilizada para calcular el valor del resistor y el exponente se basa en la fórmula estándar para decodificar el código de colores de un resistor.
 
 
 1. __Definición de Valores y Multiplicadores:__

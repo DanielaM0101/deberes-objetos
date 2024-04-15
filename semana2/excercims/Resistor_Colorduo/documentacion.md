@@ -17,4 +17,7 @@ La función colorCodetoma un color (como una cadena) como entrada y devuelve el 
 La función decodedValuetoma una matriz de dos cadenas, que representan los colores de las decenas y las unidades, y devuelve el valor de resistencia decodificado.
 Lo logra multiplicando el valor numérico del color en el lugar de las decenas por 10 y sumando el valor numérico del color en el lugar de las unidades.
 
-El código es conciso y sencillo, utiliza el método indexOfpara encontrar el índice de un color determinado en la matriz COLORSy luego realiza operaciones aritméticas simples para decodificar el valor de la resistencia.
+
+
+
+[Enlace video ](https://youtu.be/uo-zVaclJwk)
