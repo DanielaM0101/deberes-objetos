@@ -1,6 +1,29 @@
-import { Controller, Get, HttpCode, Post, Param, Body, Delete} from '@nestjs/common';
+import { Controller, Get, HttpCode, Post, Param, Body, Delete } from '@nestjs/common';
 import { CreateCatDto } from './dto/cat dto';
+import { CatsService } from './cats.service';
+import { Cat } from './interfaces/cat.interface';
 
+@Controller('cats')
+export class CatsController {
+    constructor(private catsService: CatsService) { }
+    @Post()
+    async create(@Body()CreateCatDto: CreateCatDto){
+    this.catsService.create(CreateCatDto);
+}
+
+@Get()
+async findAll(): Promise < Cat[] > {
+    return this.catsService.findAll();
+}
+}
+
+
+
+
+
+
+
+/*
 @Controller('cats')
 export class CatsController {
     @Post()
@@ -32,4 +55,4 @@ remove(@Param('id') id: string) {
   return `This action removes cat #${id}`;
 }
 
-}
+}*/
