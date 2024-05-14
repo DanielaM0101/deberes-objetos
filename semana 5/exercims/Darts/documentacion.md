@@ -7,3 +7,5 @@ Si la distancia r es mayor que 5 pero menor o igual a 10, devuelve 1.
 Si la distancia r es mayor que 1 pero menor o igual a 5, devuelve 5.
 Si la distancia r es menor o igual a 1, devuelve 10.
 Esta función asigna una puntuación a un punto en función de su proximidad al origen, donde puntos más cercanos obtienen una puntuación mayor
+
+[video](https://youtu.be/nfsJBcKQRGE)
