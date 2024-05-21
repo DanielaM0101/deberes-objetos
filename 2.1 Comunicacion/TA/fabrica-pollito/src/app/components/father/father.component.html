@@ -1,0 +1,12 @@
+
+<div style="padding: 20px;">
+  <nz-card nzTitle="Jefe:">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ48VpzNkaUSkz4hVAq_wfmt8sjage8wpheDpDdPiFBQ&s" alt="logo">
+    
+    <div class="border">Hijo usando &#64;Output: <h3>{{ childMessageEventOutput }}</h3></div>
+    <app-child [parentMessageInput]="parentMessageInput" (childMessageEventOutput)="receiveMessage($event)">
+      <div class="border">Padre usando &#64;ContentChild: <h3>Enviare los pollos para su preparacion </h3></div>
+    </app-child>
+
+  </nz-card>
+</div>

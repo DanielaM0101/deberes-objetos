@@ -1,0 +1,12 @@
+
+  <nz-card nzTitle="Empleado:" >
+    <img src="https://cdn-icons-png.flaticon.com/512/2934/2934121.png" width="200" height="200" alt="logo">
+
+    
+      <div class="border">Padre usando &#64;Input: <h3>{{ parentMessageInput }}</h3></div>
+      <div class="border">Padre usando &#64;ViewChild: <h3>{{ parentMessageViewChild }}</h3></div>
+
+    <ng-content></ng-content>
+  </nz-card>
+  <button nz-button nzType="primary" (click)="sendMessage()">Enviar Mensaje al Jefe</button>
+
