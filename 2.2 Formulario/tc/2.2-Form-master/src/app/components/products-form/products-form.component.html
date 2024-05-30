@@ -1,0 +1,32 @@
+<form nz-form [formGroup]="productForm" (ngSubmit)="submitForm()">
+    <nz-form-item>
+      <nz-form-label [nzFor]="'name'">Name</nz-form-label>
+      <nz-form-control>
+        <input nz-input formControlName="name" id="'name'" />
+      </nz-form-control>
+    </nz-form-item>
+  
+    <nz-form-item>
+      <nz-form-label [nzFor]="'category'">Category</nz-form-label>
+      <nz-form-control>
+        <input nz-input formControlName="category" id="'category'" />
+      </nz-form-control>
+    </nz-form-item>
+  
+    <nz-form-item>
+      <nz-form-label [nzFor]="'price'">Price</nz-form-label>
+      <nz-form-control>
+        <input nz-input type="number" formControlName="price" id="'price'" />
+      </nz-form-control>
+    </nz-form-item>
+  
+    <nz-form-item>
+      <nz-form-label [nzFor]="'stock'">Stock</nz-form-label>
+      <nz-form-control>
+        <input nz-input type="number" formControlName="stock" id="'stock'" />
+      </nz-form-control>
+    </nz-form-item>
+  
+    <button nz-button nzType="primary" [disabled]="!productForm.valid">Submit</button>
+  </form>
+  
